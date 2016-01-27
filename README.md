@@ -10,4 +10,4 @@ columns,call "xstd".
   
   The data set df1's first column is a factor,contains two levels:t and f.The second column  is a factor,contains two levels:body and gravity.The third  column  is a factor,contains four levels:acc,accjerk,gyro and gyrojerk.The fourth  column  is a factor,contains four levels:x,y,z and mag.In front of the four columns are combined to describe a state,at the end of  two columns, respectively, describe the situation of the state's mean and std.
   
-  Creates a second, independent tidy data set with the average of each variable for each activity and each subject,call "df3".The data set df3 contains three variables,respectively,call " status","mean_mean","mean_std".They describe:a variety of different state,each state of the average of the mean and the standard deviation of the mean of each state.
+  Creates a second, independent tidy data set with the average of each variable for each activity and each subject,call "df3".The data set df3 contains three variables,respectively,call " status","mean_mean","mean_std".They describe: a variety of different state,the average of the mean and the mean of the standard deviation of each state.
