@@ -49,7 +49,7 @@ namelist<-strsplit(names(mean_and_std),"\\-")##The names(mean_and_std) divided i
 
 
 ##Generate a new data frame,rows:339867 and cols:6
-df<-data.frame()
+df1<-data.frame()
 for (i in 1:33)  {
         df<-data.frame(f1=namelist[[i]][1],f2=namelist[[i]][2], f3=namelist[[i]][3],
                f4=namelist[[i]][5], mean=mean_and_std[,i],std=mean_and_std[,i+33])
